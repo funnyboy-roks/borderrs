@@ -1,0 +1,13 @@
+[package]
+name = "borders"
+version = "0.1.0"
+edition = "2021"
+authors = ["funnyboy_roks <funnyboyroks@gmail.com>"]
+description = "Add stylish borders around your text and datastructures"
+license = "Apache-2.0"
+repository = "https://github.com/funnyboy-roks/borders"
+keywords=["cli", "terminal", "ascii", "ansi", "unicode"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
