@@ -1,4 +1,4 @@
-# borders
+# borderrs
 
 [![Crates.io](https://img.shields.io/crates/v/borders.svg)](https://crates.io/crates/borders)
 [![Documentation](https://docs.rs/borders/badge.svg)](https://docs.rs/borders/)
@@ -18,7 +18,7 @@ Currently, we support:
 ## Usage Example
 
 ```rust
-use borders::{styles::THIN, BorderFormatter};
+use borderrs::{styles::THIN, BorderFormatter};
 
 let slice = [0, 1, 2, 3, 4];
 println!("{}", THIN.format_slice(&slice));

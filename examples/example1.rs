@@ -1,7 +1,7 @@
 use std::collections::HashMap;
 
 fn main() {
-    use borders::{
+    use borderrs::{
         styles::{ASCII, DOUBLE, THIN},
         BorderFormatter,
     };

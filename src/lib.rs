@@ -12,7 +12,7 @@
 //! # Usage Example
 //!
 //! ```rust
-//! use borders::{styles::THIN, BorderFormatter};
+//! use borderrs::{styles::THIN, BorderFormatter};
 //!
 //! let slice = [0, 1, 2, 3, 4];
 //! println!("{}", THIN.format_slice(&slice));
@@ -71,7 +71,7 @@ pub trait BorderFormatter {
     ///
     /// For example,
     /// ```rust
-    /// # use borders::{styles, BorderFormatter};
+    /// # use borderrs::{styles, BorderFormatter};
     /// println!(
     ///     "{}",
     ///     styles::THIN.format_slice(&["Hello", "world", "how", "are", "you", "doing", "today"])
@@ -102,7 +102,7 @@ pub trait BorderFormatter {
     ///
     /// For example,
     /// ```rust
-    /// # use borders::{styles, BorderFormatter};
+    /// # use borderrs::{styles, BorderFormatter};
     /// # use std::collections::HashMap;
     /// let mut map = HashMap::default();
     ///
@@ -134,7 +134,7 @@ pub trait BorderFormatter {
     ///
     /// For example,
     /// ```rust
-    /// # use borders::{styles, BorderFormatter};
+    /// # use borderrs::{styles, BorderFormatter};
     /// # use std::collections::HashMap;
     /// let mut map = HashMap::default();
     ///
@@ -170,8 +170,8 @@ pub trait BorderFormatter {
     ///
     /// For example,
     /// ```rust
-    /// # use borders::BorderFormatter;
-    /// println!("{}", borders::styles::DOUBLE.format_display(" Hello World! "));
+    /// # use borderrs::BorderFormatter;
+    /// println!("{}", borderrs::styles::DOUBLE.format_display(" Hello World! "));
     /// ```
     /// produces
     /// ```text
@@ -187,8 +187,8 @@ pub trait BorderFormatter {
     ///
     /// For example,
     /// ```rust
-    /// # use borders::BorderFormatter;
-    /// println!("{}", borders::styles::DOUBLE.format_debug("Hello World!"));
+    /// # use borderrs::BorderFormatter;
+    /// println!("{}", borderrs::styles::DOUBLE.format_debug("Hello World!"));
     /// ```
     /// produces
     /// ```text
