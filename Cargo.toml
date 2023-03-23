@@ -1,6 +1,6 @@
 [package]
 name = "borderrs"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["funnyboy_roks <funnyboyroks@gmail.com>"]
 description = "Add stylish borders around your text and datastructures"

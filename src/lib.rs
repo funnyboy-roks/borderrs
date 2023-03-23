@@ -1,6 +1,8 @@
 //! This crate allows the user to format many data structures in ways that look nicer to the
 //! end-user.
 //!
+//! The Wikipedia page on [Box-Drawing Characters](https://en.wikipedia.org/wiki/Box-drawing_character#Box_Drawing) has been quite helpful
+//!
 //! Currently, we support:
 //! - [`slice`]s with [`BorderFormatter::format_slice`]
 //! - [`Iterator`]s with [`BorderFormatter::format_iter`]
